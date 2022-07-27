@@ -99,7 +99,7 @@ After 2022-07-18 do not require snapshot
 	{
 	"account_id":"polo.factory.shardnet.near",
 	"public_key":"ed25519:8eEwE5P1RQDw3mZL5KPJG39XUmQhaAhaKMNNNB6L3qeh",
-	"secret_key":"ed25519:5iVTxstcJTHd8bfdGVTC4xbjL8zfgqWZXWJj4WjMdu8Q2yxzXwwjZahrcj8rxu8pdYFktP3AihzL4t6JuE8WBWpq"
+	"secret_key":"ed25519:5iVxxxx...."
 	}
 
 ### Activating the account
