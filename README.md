@@ -1,12 +1,12 @@
 # Stake Wars III
-## Introduction
+## 📄 Introduction
 The main idea of the project is to meet the different challenges of StakewarsIII by following the guide:
 [https://github.com/near/stakewars-iii/tree/main/challenges](https://github.com/near/stakewars-iii/tree/main/challenges)
 
-## Challenge I
+## 🏦 Challenge I
 Create your Shardnet wallet & deploy the NEAR CLI. This is designed to be your very first challenge: use it to understand how staking on NEAR works.
 
-### Create a wallet
+###  Create a wallet
 ![](https://www.oceanblock.co/wp-content/uploads/2022/07/polo-wallet.jpg)
 
 ### Setup NEAR-CLI
@@ -42,7 +42,7 @@ Install NEAR-CLI
 	...............................................................................................
 	
 
-## Challenge II 
+## 📦 Challenge II 
 This challenge is focused on deploying a node *(nearcore)*, downloading a snapshot, syncing it to the actual state of the network, then activating the node as a validator.
 ### Setup machine
 Check hardware
@@ -156,7 +156,7 @@ After 2022-07-18 do not require snapshot
 
 	jul 22 18:19:04 near neard[64651]: 2022-07-22T16:19:04.416268Z  INFO stats: # 1170262 JDfvbfKE6qJhg1cXVdXwCKjdi5Yu4NC97YK4NMXD7xkH 100 validators 30 peers ⬇ 354 kB/s ⬆ 359 kB/s 0.50 bps 39.6 Tgas/s CPU: 19%, Mem: 2.88 GB
 
-## Challenge III
+## 🧾 Challenge III
 Deploy a new staking pool for your validator. Do operations on your staking pool to delegate and stake NEAR.
 ### Deploy a Staking Pool Contract
 	> near call factory.shardnet.near create_staking_pool '{"staking_pool_id": "polo", "owner_id": "polo.shardnet.near", "stake_public_key": "ed25519:ByngjDsAY6cpaMk3ce6DDCXmzRcpvZB4tHXd4MK7bH41", "reward_fee_fraction": {"numerator": 5, "denominator": 100}, "code_hash":"DD428g9eqLL8fWUxv8QSpVFzyHi1Qd16P8ephYCTmMSZ"}' --accountId="polo.shardnet.near" --amount=30 --gas=300000000000000
@@ -196,7 +196,7 @@ Deploy a new staking pool for your validator. Do operations on your staking pool
 	
 	| Proposal(Accepted) | polo.factory.shardnet.near               | 530                | 1       |
 
-## Challenge IV
+## 🕵️‍♂️ Challenge IV
 Setup tools for monitoring node status. Install and use RPC on port 3030 to get useful information for keep your node working.
 
 ### Log files
@@ -228,7 +228,7 @@ Setup tools for monitoring node status. Install and use RPC on port 3030 to get 
 
 ![](https://www.oceanblock.co/wp-content/uploads/2022/07/polo-explorer.jpg)
 
-## Challenge V
+## 🧑🏻‍💻 Challenge V
 Setup a running validator node for shardnet on any one of the most popular cloud providers and document the process to create an article about it.
 
 ### Hetzner
@@ -250,7 +250,7 @@ Dedicated Root Server AX101 from € 113.74 / month.
 Available English / Spanish / Deutch / Catalan.
 
 
-## Challenge VI
+## 🤖 Challenge VI
 Create a cron task on the machine running node validator that allows ping to network automatically.
 
 ### Create script
